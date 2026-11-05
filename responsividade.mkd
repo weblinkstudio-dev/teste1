@@ -1,0 +1,15 @@
+| Faixa          | Largura    |
+| -------------- | ---------- |
+| Mobile pequeno | até 360px  |
+| Mobile normal  | até 480px  |
+| Mobile grande  | até 640px  |
+| Tablet         | até 1024px |
+| Desktop        | acima      |
+
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+}

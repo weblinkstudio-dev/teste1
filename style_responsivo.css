@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section1 .oferta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 5.09vw;
+    border-radius: 7vw;
+    gap: 3.82vw;
+    width: 75vw;
+    margin: 5.09vw 0 2.54vw 0;
+    position: relative;
+}
+
+.section1 .oferta h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 0.98em;
+    color: #000;
+}
+
+.section1 .contador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5vw;
+}
+
+.section1 .oferta p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 0.98em;
+    color: #000;
+    display: flex;
+    gap: 1.78vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section1 .oferta p span{
+    font-family: "Open Sans", sans-serif;
+    font-size: 6.5vw;
+    font-weight: 700;
+    line-height: 0.98em;
+    color: #FF0B00;
+}
+
+.section1 img{
+    width: 100%;
+    pointer-events: none;
+}
+
+.section1 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10.18vw;
+    padding: 0 5.2vw 28vw 5.2vw;
+    position: relative;
+}
+
+.section1 .content p.anti_titulo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.5vw;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5.09vw;
+}
+
+.section1 .content h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12vw;
+    font-weight: 800;
+    line-height: 0.98em;
+    gap: 3.31vw;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8.91vw;
+}
+
+.section1 .content h1 span{
+    font-size: 18.3vw;
+    color: #FF281F;
+    text-shadow: 0 0 3.82vw #FF281F, 0 0 5.09vw #ff000003, 0 1.02vw 1.02vw #ff000057;
+}
+
+.section1 .content p.price{
+    font-family: "Open Sans", sans-serif;
+    font-size: 9vw;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+    gap: 1.78vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7.63vw;
+}
+
+.section1 .content p.price span{
+    font-family: "Lora", serif;
+    font-size: 5vw;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #fff;
+}
+
+.section1 .content p.descricao{
+    font-family: "Lora", serif;
+    font-size: 5.1vw;
+    font-weight: 400;
+    line-height: 1.6em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10.18vw;
+}
+
+.section1 .content button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 5.1vw;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(-10deg, #FF281F 17%, #FF8A85 48%, #FF281F 85%);
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border-radius: 4.58vw;
+    border: 0.67vw solid #F06A63;
+    box-shadow: 0.76vw 1.27vw 5.09vw #FF281F, 0.76vw 1.27vw 10.18vw rgba(255, 39, 31, 0.200);
+    transition-duration: 0.3s;
+}
+
+.section1 .content a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 5.1vw;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.section1 .content button:hover{
+    background-image: linear-gradient(-10deg, #dd221b 17%, #e07572 48%, #dd221b 85%);
+    transform: scale(1.03);
+}
+
+.section1 .luz_azul.one{
+    width: 46.82vw;
+    position: absolute;
+    bottom: 38.17vw;
+    right: -30.53vw;
+    opacity: 30%;
+    filter: blur(17.81vw);
+}
+
+.section1 .luz_azul.two{
+    width: 46.82vw;
+    position: absolute;
+    top: 139.95vw;
+    left: -40.71vw;
+    opacity: 30%;
+    filter: blur(17.81vw);
+}
+
+.section1 .luz_azul.three{
+    width: 46.82vw;
+    position: absolute;
+    top: -25.45vw;
+    left: 25.45vw;
+    opacity: 30%;
+    filter: blur(17.81vw);
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    background: #000;
+}
+
+.section2 .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 94.15vw;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.section2 .box h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 7.12vw;
+    font-weight: 800;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.54vw;
+    padding: 0 7.63vw;
+}
+
+.section2 .box p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.07vw;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #fff;
+    text-align: center;
+    padding: 0 7.63vw;
+}
+
+.section2 .box.two{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/img_peso_tenis.png');
+    clip-path: polygon(0% 0%, 100% calc(0% + 12.72vw), 100% 100%, 0% calc(100% - 12.72vw));
+    min-height: 113vw;
+    z-index: 2;
+    margin-top: -12.72vw;
+    margin-bottom: -12.72vw;
+}
+
+.section2 .box.one p{
+    margin-bottom: 7.63vw;
+}
+
+.section2 .box.two p{
+    margin: 0 10vw 5.09vw 10vw;
+}
+
+.section2 .box.three h2{
+    margin-top: 7.63vw;
+}
+
+.section2 .box img{
+    position: absolute;
+    width: 100%;
+    height: 20.36vw;
+    opacity: 80%;
+}
+
+.section2 .box.one .linha_neon_cima{
+    top: -10.18vw;
+}
+
+.section2 .box.one .linha_neon_baixo{
+    bottom: -3.31vw;
+    transform: rotate(7deg);
+    z-index: 3;
+}
+
+.section2 .box.three .linha_neon_cima{
+    top: -3.31vw;
+    transform: rotate(7deg);
+    z-index: 2;
+}
+
+.section2 .box.three .linha_neon_baixo{
+    bottom: -10.18vw;
+    z-index: 3;
+}
+
+
+.section2 .box.one{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/img_correndo_no_asfalto.png');
+}
+
+.section2 .box.three{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/img_tenis_vermelho.png');
+}
